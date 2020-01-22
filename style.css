@@ -1,0 +1,193 @@
+body
+{
+	background-image: url("Img/CV.jpg");
+}
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab
+{
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1; 
+}
+h1
+{
+	text-align: center;
+	text-shadow: 2px 2px 2px red;
+	font-size: 4em;
+	font-weight: bold;
+	margin-left: 30%;
+}
+.formation,
+.experience,
+.recommandations
+{
+	font-family: 'GeosansLight', Arial, serif;
+	text-align: left;
+	color: #020c99fd;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgb(107, 2, 2);
+}
+.text
+{
+	justify-content: space-between;
+}
+
+@font-face {
+	font-family: 'GeosansLight';
+	src: url('GeosansLight.ttf');
+}
+h1, h2
+{
+	font-family: 'GeosansLight', Arial, serif;
+	color: #020c99fd;
+}
+h2
+{
+	text-shadow: 2px 2px 2px rgb(107, 2, 2);
+	font-size: 1.8em;
+}
+h3
+{
+	font-family: 'GeosansLight', Arial, serif;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	background-color: rgba(255, 9, 9, 0.5);
+}
+.image2
+{
+  text-align: center;
+}
+.contact,
+.propos
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-align: left;
+	font-family: 'GeosansLight', Arial, serif;
+	font-size: 1.2em;
+	color: white;
+	text-shadow: 2px 2px 2px #000000;
+	overflow-wrap: break-word;	
+}
+.loisirs
+{
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 10%;
+	word-spacing: 1.5em;
+	color: white;
+	text-shadow: 2px 2px 2px #000000;
+	text-align: center;
+}
+#lisere
+{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	background-color: rgba(66, 23, 240, 0.5);
+	width: 20%;
+	height: 1160px;
+	margin-top: -3%;
+	margin-left: -1%;
+	text-align: center;
+	}
+hr
+{
+	border: none; 
+    background-color: red; 
+	color: rgba(255, 9, 9, 0.7); 
+	box-shadow: 2px 2px 2px hsl(0, 0%, 0%);
+    height: 4px; 
+}
+.fa
+{
+	word-spacing: 2em;
+	padding-right: 5%;
+	color: rgba(255, 9, 9, 0.7); 
+	text-shadow: 2px 2px 2px hsl(0, 0%, 0%);
+}
+#contener
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 30%;
+}
+#formation,
+#experience,
+#recommandations
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+}
+.formation,
+.experience,
+.recommandations
+{
+	width: 800px;
+}
+@media screen and (max-width: 1048px)
+{
+.image2
+{
+	float: left;	
+}
+#lisere
+{
+	background-color: transparent ;
+	position: absolute;
+	right: 0%;
+}
+h3
+{
+	background-color: transparent ;
+}
+.contact
+{
+	color: #020c99fd;
+	text-shadow: 2px 2px 2px rgb(107, 2, 2);
+}
+h1,
+#contener,
+#formation,
+#experience,
+#recommandations,
+.text
+{
+	flex-direction: column;
+	margin-left: 0%;
+	margin-right: 30%;
+	justify-content: left;
+}
+h3,
+hr,
+.propos,
+.loisirs,
+.fas,
+.fab,
+.data
+{
+	display: none;
+
+}
+header, 
+.formation,
+.experience,
+.recommandations
+{
+	margin-left: 25%;
+}
+}
